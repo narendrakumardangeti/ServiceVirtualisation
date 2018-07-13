@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soap:Body>
+		<InstallationDetailsQuery2Response
+			xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+			<InstallationDetailsQuery2Result>
+				<RequestStatus>Accepted</RequestStatus>
+				<AccessType />
+				<AddressReference>A00091445525</AddressReference>
+				<AuxLineQuantity>0</AuxLineQuantity>
+				<BusinessContinuityFlag>false</BusinessContinuityFlag>
+				<CareLevel>0</CareLevel>
+				<CPSPresent>false</CPSPresent>
+				<CSSDistrictCode>CL</CSSDistrictCode>
+				<CSSExchangeGroupCode>MOO</CSSExchangeGroupCode>
+				<CSSExchangeType>AXE10</CSSExchangeType>
+				<DebtManagementIndicator />
+				<DirectoryEntryDetails>
+					<DirectoryEntryDetails>
+						<BusinessDescription />
+						<BusinessName />
+						<DirectoryAction />
+						<DirectoryTitle />
+						<DirectoryType>O</DirectoryType>
+						<DoctorOfMedicine>false</DoctorOfMedicine>
+						<EuContactPermission>false</EuContactPermission>
+						<FaxMinicom>false</FaxMinicom>
+						<GroupListingRequired>false</GroupListingRequired>
+						<Initials />
+						<ListNonInstallationAddress>false</ListNonInstallationAddress>
+						<LocationOption>Business</LocationOption>
+						<PartialAddressRequired>false</PartialAddressRequired>
+						<RetainExistingDirectory>false</RetainExistingDirectory>
+						<Surname>erhe</Surname>
+						<MainBillingNumberRef>MBN1</MainBillingNumberRef>
+						<MainBillingNumberSequenceNumber />
+						<DirectoryEntryLine>MainLine</DirectoryEntryLine>
+					</DirectoryEntryDetails>
+				</DirectoryEntryDetails>
+				<Error>
+					<Error>
+						<Code>2000</Code>
+						<Message>Request Successful</Message>
+						<Severity>Informational</Severity>
+					</Error>
+				</Error>
+				<EUConsent>true</EUConsent>
+				<InstallationType>Standard</InstallationType>
+				<LineType>Premium</LineType>
+				<NarrowbandServicesIndicator>false</NarrowbandServicesIndicator>
+				<NumberRetentionAllowed>false</NumberRetentionAllowed>
+				<OIDServiceType>PSTN Single Line</OIDServiceType>
+				<OwnershipConfirmation>true</OwnershipConfirmation>
+				<PayPhoneType />
+				<Postcode />
+				<ServiceID>02433232870</ServiceID>
+				<ServiceType>WLR Single Line</ServiceType>
+				<SMCContactRequired>false</SMCContactRequired>
+				<StandByPowerRequired>false</StandByPowerRequired>
+				<TempStructure>false</TempStructure>
+				<TerminationType>Line Box</TerminationType>
+				<WholesaleCallsPresent>false</WholesaleCallsPresent>
+				<WLR3Feature>
+					<CallingNetworkFeature>
+						<FeatureCLI />
+						<FeatureCLIRwith1470Required />
+						<FeatureCUPID />
+						<FeatureName>Call Diversion</FeatureName>
+						<LineNumber>1</LineNumber>
+						<ServiceType>WLR Single Line</ServiceType>
+					</CallingNetworkFeature>
+				</WLR3Feature>
+			</InstallationDetailsQuery2Result>
+		</InstallationDetailsQuery2Response>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,12 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <NumberImportResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+         <NumberImportResult>
+            <ListOfError><![CDATA[<ListOfError><Error><CompletionCode>2306</CompletionCode><Code /><Message>Yes - this number may be imported to this address, subject to further validation by the losing  CP</Message><Severity>Informational</Severity></Error></ListOfError>]]></ListOfError>
+            <RequestStatus>Accepted</RequestStatus>
+            <ValidForImport>true</ValidForImport>
+            <VICCode>ST000003350</VICCode>
+         </NumberImportResult>
+      </NumberImportResponse>
+   </soap:Body>
+</soap:Envelope>

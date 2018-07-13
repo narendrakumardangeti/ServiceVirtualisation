@@ -1,0 +1,42 @@
+
+C:\Programs\hoverfly_64\hoverctl  start
+
+C:\Programs\hoverfly_64\hoverctl export imulations-addaccount.json
+
+C:\Programs\hoverfly_64\hoverctl import simulations-addaccount.json
+
+C:\Programs\hoverfly_64\hoverctl middleware --binary python --script middleware.py
+
+C:\Programs\hoverfly_64\hoverctl  stop
+
+https://go-search.org/view?id=github.com%2Fmozey%2Fhoverfly
+
+../../examples/middleware/synthetic_service/synthetic.py
+
+
+
+
+
+hoverctl  start  --> to start. once started, admin UI can be accessed via http://localhost:8888/dashboard
+hoverctl mode capture  --> capture requests. change the mode to simulate once capture is done.  (hoverctl mode simulate)
+hoverctl export imulations-addaccount.json --> then save captured data to file
+hoverctl import simulations-addaccount.json --> to import already captured data file to hoverfly
+hoverctl middleware --binary python --script middleware.py  --> to include middleware python script if the response to be customized.
+hoverctl  stop --> stop hoverfly
+
+
+
+hoverfly -generate-ca-cert
+Optionally, you can provide a custom certificate name and authority:
+hoverfly -generate-ca-cert -cert-name tutorial.cert -cert-org "Tutorial Certificate Authority"
+
+
+Once you have generated cert.pem and key.pem files with Hoverfly, you can use hoverctl to start an instance of Hoverfly using these files.
+hoverctl start --certificate cert.pem --key key.pem
+
+keytool -importcert -alias mycert -file cert.pem -keystore truststore.jks -storepass password
+
+configure following in client
+javax.net.ssl.trustStore=/Programs/truststore.jks
+javax.net.ssl.keyStorePassword=password
+(http://flood.io/blog/mutual-two-way-ssl-with-jmeter/)

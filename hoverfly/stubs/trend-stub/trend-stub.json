@@ -1,0 +1,339 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/TrendMock/QuotaManagement"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*<platform>HP</platform>*<username>*</username>*</*:getDailyUsageFromPlatform>*"
+						}
+					],
+					"query": {
+						"wsdl": [
+							{
+								"matcher": "exact",
+								"value": ""
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><ns2:getDailyUsageFromPlatformResponse xmlns:ns2=\"http://webservice.nibs.btretail.net/\"/></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"text/xml;charset=UTF-8"
+						],
+						"Date": [
+							"Wed, 11 Jul 2018 18:28:36 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/TrendMock/QuotaManagement"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*<*:setQuotaOnPlatform>*<platform>HP</platform>*<username>*</username>*</*:setQuotaOnPlatform>*"
+						}
+					],
+					"query": {
+						"wsdl": [
+							{
+								"matcher": "exact",
+								"value": ""
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><ns2:setQuotaOnPlatformResponse xmlns:ns2=\"http://webservice.nibs.btretail.net/\"><return>0</return></ns2:setQuotaOnPlatformResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"text/xml;charset=UTF-8"
+						],
+						"Date": [
+							"Wed, 11 Jul 2018 18:29:11 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/TrendMock/Provisioning"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*<*:createUserIdOnPlatform>*<platform>HP</platform>*</*:createUserIdOnPlatform>*"
+						}
+					],
+					"query": {
+						"wsdl": [
+							{
+								"matcher": "exact",
+								"value": ""
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><ns2:createUserIdOnPlatformResponse xmlns:ns2=\"http://webservice.nibs.btretail.net/\"/></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"text/xml;charset=UTF-8"
+						],
+						"Date": [
+							"Wed, 11 Jul 2018 18:29:59 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/TrendMock/Provisioning"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*<*:deleteUserIdFromPlatform>*<platform>HP</platform>*</*:deleteUserIdFromPlatform>*"
+						}
+					],
+					"query": {
+						"wsdl": [
+							{
+								"matcher": "exact",
+								"value": ""
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><ns2:deleteUserIdFromPlatformResponse xmlns:ns2=\"http://webservice.nibs.btretail.net/\"/></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"text/xml;charset=UTF-8"
+						],
+						"Date": [
+							"Wed, 11 Jul 2018 18:30:29 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/TrendMock/Provisioning"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*<*:setUserProfileOnPlatform>*<platform>HP</platform>*"
+						}
+					],
+					"query": {
+						"wsdl": [
+							{
+								"matcher": "exact",
+								"value": ""
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><ns2:setUserProfileOnPlatformResponse xmlns:ns2=\"http://webservice.nibs.btretail.net/\"/></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"text/xml;charset=UTF-8"
+						],
+						"Date": [
+							"Wed, 11 Jul 2018 18:31:25 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v5",
+		"hoverflyVersion": "v0.17.0",
+		"timeExported": "2018-07-12T00:02:05+05:30"
+	}
+}

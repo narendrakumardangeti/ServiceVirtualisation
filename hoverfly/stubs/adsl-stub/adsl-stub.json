@@ -1,0 +1,216 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/adslstub/adslchecker_xml.telno"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "GET"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": ""
+						}
+					],
+					"query": {
+						"Input": [
+							{
+								"matcher": "glob",
+								"value": "*"
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<ADSL_CHECKER>\r\n   <ERRORID>0</ERRORID>\r\n   <INPUT>023999999</INPUT>\r\n   <INPUTTYPE>TELNO</INPUTTYPE>\r\n   <FIXEDRATE>\r\n      <RAG>R</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>N</EXCHSTATE>\r\n      <CAPACITY />\r\n   </FIXEDRATE>\r\n   <RATEADAPTIVE>\r\n      <RAG>R</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>N</EXCHSTATE>\r\n      <CAPACITY />\r\n   </RATEADAPTIVE>\r\n    <MAX>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <SPEED>7000</SPEED>\r\n      <MINRANGE>6000</MINRANGE>\r\n      <MAXRANGE>8000</MAXRANGE>\r\n      <MINTHRESHOLD>1000</MINTHRESHOLD>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <READYDATE>15-08-2016</READYDATE>\r\n      <CAPACITY />\r\n   </MAX>\r\n   <ADSL2PLUS_FIXEDRATE>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n   </ADSL2PLUS_FIXEDRATE>\r\n   <ADSL2PLUS_RATEADAPTIVE>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n   </ADSL2PLUS_RATEADAPTIVE>\r\n      <WBC>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <SPEED>9000</SPEED>\r\n      <MINRANGE>7500</MINRANGE>\r\n      <MAXRANGE>10000</MAXRANGE>\r\n      <MINTHRESHOLD>6000</MINTHRESHOLD>\r\n      <READYDATE>15-08-2016</READYDATE>\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n      <ANNEXMRAG>G</ANNEXMRAG>\r\n      <ANNEXMDOWNSPEED>7000</ANNEXMDOWNSPEED>\r\n      <ANNEXMMINSPEED>6500</ANNEXMMINSPEED>\r\n      <ANNEXMMAXSPEED>8000</ANNEXMMAXSPEED>\r\n      <ANNEXMUPSPEED>1000</ANNEXMUPSPEED>\r\n   </WBC>\r\n   <WBCFTTC>\r\n\t\t<RAG>G</RAG>\r\n\t\t<REASONCODE>Z</REASONCODE>\r\n\t\t<RANGEATOPDOWNSTREAMDATABANDWIDTH>338000</RANGEATOPDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEATOPUPSTREAMDATABANDWIDTH>6000</RANGEATOPUPSTREAMDATABANDWIDTH>\r\n\t\t<RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEABOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEABOTTOMUPSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBTOPDOWNSTREAMDATABANDWIDTH>338000</RANGEBTOPDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBTOPUPSTREAMDATABANDWIDTH>6000</RANGEBTOPUPSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBBOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEBBOTTOMUPSTREAMDATABANDWIDTH>\r\n\t\t<MINRANGE />\r\n\t\t<MAXRANGE />\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>E</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t\t<AVAILABILITY_FLAG>W</AVAILABILITY_FLAG> \r\n\t\t<BANDWIDTH18X2PROVIDEAVAILABLE>N</BANDWIDTH18X2PROVIDEAVAILABLE> \r\n\t\t<BANDWIDTH18X2SIMAVAILABLE>N</BANDWIDTH18X2SIMAVAILABLE> \r\n   </WBCFTTC>\r\n   <WBCFTTP>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <DOWNSPEED>100000</DOWNSPEED>\r\n      <UPSPEED>10000</UPSPEED>\r\n      <MINRANGE />\r\n      <MAXRANGE />\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n      <ONTLIST>\r\n         <ONTDATA>\r\n            <ONTSERIALNUMBER>XX1</ONTSERIALNUMBER>\r\n            <ONTREFNUMBER>XX1</ONTREFNUMBER>\r\n            <ONTFLOOR>XX</ONTFLOOR>\r\n            <ONTROOM>XX</ONTROOM>\r\n            <ONTPOSITION>XX</ONTPOSITION>\r\n            <BBUSTATUS>XX</BBUSTATUS>\r\n            <L2SID>BAAAAA</L2SID>\r\n            <PORTLIST>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>1</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>2</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>3</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>4</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n            </PORTLIST>\r\n         </ONTDATA>\r\n         <ONTDATA>\r\n            <ONTSERIALNUMBER>XX2</ONTSERIALNUMBER>\r\n            <ONTREFNUMBER>XX2</ONTREFNUMBER>\r\n            <ONTFLOOR>XX</ONTFLOOR>\r\n            <ONTROOM>XX</ONTROOM>\r\n            <ONTPOSITION>XX</ONTPOSITION>\r\n            <PORTLIST>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>1</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>2</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n            </PORTLIST>\r\n         </ONTDATA>\r\n      </ONTLIST>\r\n      <PREMISETYPE>Single Dwelling Unit Residential</PREMISETYPE>\r\n      <SERVICENOTES>UG Feed with no anticipated issues</SERVICENOTES>\r\n      <TMAMARKER />\r\n      <TMANOTICEORPERMIT>Notice</TMANOTICEORPERMIT>\r\n   </WBCFTTP>\r\n   <FTTPONDEMAND>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>G</REASONCODE>\r\n      <DOWNSPEED>330000</DOWNSPEED>\r\n      <UPSPEED>30000</UPSPEED>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n   </FTTPONDEMAND>\r\n   <WBCMULTICAST>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n   </WBCMULTICAST>\r\n   <EXCHANGECODE>STALB</EXCHANGECODE>\r\n   <EXCHANGENAME>KESGRAVE</EXCHANGENAME>\r\n   <CABINETUNAVAILABILITYREASON>Cabinet Unavailability Reason from OR</CABINETUNAVAILABILITYREASON>\r\n   <POSTCODE />\r\n   <WBCFTTPFLAG>Y</WBCFTTPFLAG>\r\n   <ONTID>2011-031D9942</ONTID>\r\n   <ONTPORTPAIRAVAIL>2</ONTPORTPAIRAVAIL>\r\n   <SUGGESTEDMSG>Your exchange is ADSL enabled, and our initial test on your line indicates that your line should be able to have an ADSL broadband service that provides a fixed line speed up to 2Mbps. Our     test also indicates that your line currently supports an estimated ADSL Max broadband line speed of 7Mbps; typically the line speed would range between 6Mbps and 8Mbps. Currently capacity is not available to     fulfil ADSL Max orders. New capacity is expected from 15th August       2016. Our test also indicates that your line currently supports an estimated ADSL2+ broadband line speed of 9Mbps; typically the linespeed would range between 7.5Mbps and 10Mbps. Our test also indicates that your line could support an estimated ADSL 2+ Annex-M broadband upstream line speed of 1 Mbps and downstream line speed of 7 Mbps; typically the line speed would range between 6.5Mbps and 8Mbps. Currently capacity is not available to fulfil ADSL2+ and ADSL2+ Annex-M orders. New capacity is expected from 15th August 2016. Our test also indicates that your line currently supports a fibre       technology with an estimated WBC FTTC Broadband where customers are     capable of receiving downstream line speed between 16.5 to 21.5 Mbps and upstream line speed between 1.5 to 2.3 Mbps. The actual stable     line rate supportable will be determined during the first 10 days of use. This rate may change over time, to ensure line stability is maintained. If you decide to place an order, a further test will be performed to confirm if your line is suitable for the service you wish to purchase. Our test also indicates that your line currently supports     a WBC Fibre To The Premises technology with an estimated Broadband downstream line speed of up to 100 Mbps and upstream line speed of up to 30 Mbps. Our records show the following network service information for your premises:-Single Dwelling Unit Residential UG Feed with no anticipated issues.       Furthermore your exchange has been enabled for multicast services, please contact your provider for further     details. If you decide to place an order for a fibre product, an appointment might be required where an engineer may need to visit your   premises who will, where possible, supply the service. Thank you for your interest. Please note that postcode and address check results are indicative only. Most accurate results can be obtained from a telephone number check.</SUGGESTEDMSG>\r\n   <SUPPLEMENTARYMSG>Note: If you already have a Broadband service and you want to switch service providers, you will need to contact both your current provider and your new provider to get your service changed over new and existing service provider to have this service transferred.</SUPPLEMENTARYMSG>\r\n</ADSL_CHECKER>\r\n",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Date": [
+							"Mon, 02 Jul 2018 10:32:58 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/adslstub/adslchecker_xml.address"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "GET"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": ""
+						}
+					],
+					"query": {
+						"Input": [
+							{
+								"matcher": "glob",
+								"value": "*"
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<ADSL_CHECKER>\r\n   <ERRORID>0</ERRORID>\r\n   <ADDRESS_DETAILS>\r\n      <ADDRESS_MATCHED>TRUE</ADDRESS_MATCHED>\r\n      <ADDRESS_DETAIL>\r\n         <ADDRESS>\r\n            <SUBPREMISES />\r\n            <PREMISENAME />\r\n            <THOROUGHFARENUMBER>4</THOROUGHFARENUMBER>\r\n            <THOROUGHFARENAME>SPINNERS WALK</THOROUGHFARENAME>\r\n            <LOCALITY />\r\n            <POSTTOWN>WESTMINSTER</POSTTOWN>\r\n            <POSTCODE>WM8 7SY</POSTCODE>\r\n            <DISTRICTID>EA</DISTRICTID>\r\n         </ADDRESS>\r\n      </ADDRESS_DETAIL>\r\n   </ADDRESS_DETAILS>\r\n   <FIXEDRATE>\r\n      <RAG>R</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>N</EXCHSTATE>\r\n      <CAPACITY />\r\n   </FIXEDRATE>\r\n   <RATEADAPTIVE>\r\n      <RAG>R</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>N</EXCHSTATE>\r\n      <CAPACITY />\r\n   </RATEADAPTIVE>\r\n   <MAX>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <SPEED>7000</SPEED>\r\n      <MINRANGE>6000</MINRANGE>\r\n      <MAXRANGE>8000</MAXRANGE>\r\n      <MINTHRESHOLD>1000</MINTHRESHOLD>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <READYDATE>15-08-2016</READYDATE>\r\n      <CAPACITY />\r\n   </MAX>\r\n   <ADSL2PLUS_FIXEDRATE>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n   </ADSL2PLUS_FIXEDRATE>\r\n   <ADSL2PLUS_RATEADAPTIVE>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n   </ADSL2PLUS_RATEADAPTIVE>\r\n   <WBC>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <SPEED>9000</SPEED>\r\n      <MINRANGE>7500</MINRANGE>\r\n      <MAXRANGE>10000</MAXRANGE>\r\n      <MINTHRESHOLD>6000</MINTHRESHOLD>\r\n      <READYDATE>15-08-2016</READYDATE>\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n      <ANNEXMRAG>G</ANNEXMRAG>\r\n      <ANNEXMDOWNSPEED>7000</ANNEXMDOWNSPEED>\r\n      <ANNEXMMINSPEED>6500</ANNEXMMINSPEED>\r\n      <ANNEXMMAXSPEED>8000</ANNEXMMAXSPEED>\r\n      <ANNEXMUPSPEED>1000</ANNEXMUPSPEED>\r\n   </WBC>\r\n   <WBCFTTC>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <RANGEATOPDOWNSTREAMDATABANDWIDTH>338000</RANGEATOPDOWNSTREAMDATABANDWIDTH>\r\n      <RANGEATOPUPSTREAMDATABANDWIDTH>6000</RANGEATOPUPSTREAMDATABANDWIDTH>\r\n      <RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>\r\n      <RANGEABOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEABOTTOMUPSTREAMDATABANDWIDTH>\r\n      <RANGEBTOPDOWNSTREAMDATABANDWIDTH>338000</RANGEBTOPDOWNSTREAMDATABANDWIDTH>\r\n      <RANGEBTOPUPSTREAMDATABANDWIDTH>6000</RANGEBTOPUPSTREAMDATABANDWIDTH>\r\n      <RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>\r\n      <RANGEBBOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEBBOTTOMUPSTREAMDATABANDWIDTH>\r\n      <MINRANGE />\r\n      <MAXRANGE />\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n      <AVAILABILITY_FLAG>Y</AVAILABILITY_FLAG>\r\n        <BANDWIDTH18X2PROVIDEAVAILABLE>N</BANDWIDTH18X2PROVIDEAVAILABLE>\r\n        <BANDWIDTH18X2SIMAVAILABLE>N</BANDWIDTH18X2SIMAVAILABLE>\r\n   </WBCFTTC>\r\n   <WBCFTTP>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>Z</REASONCODE>\r\n      <DOWNSPEED>100000</DOWNSPEED>\r\n      <UPSPEED>10000</UPSPEED>\r\n      <MINRANGE />\r\n      <MAXRANGE />\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n      <ONTLIST>\r\n         <ONTDATA>\r\n            <ONTSERIALNUMBER>XX1</ONTSERIALNUMBER>\r\n            <ONTREFNUMBER>XX1</ONTREFNUMBER>\r\n            <ONTFLOOR>XX</ONTFLOOR>\r\n            <ONTROOM>XX</ONTROOM>\r\n            <ONTPOSITION>XX</ONTPOSITION>\r\n            <BBUSTATUS>XX</BBUSTATUS>\r\n            <L2SID>BAAAAA</L2SID>\r\n            <PORTLIST>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>1</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>2</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>3</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>4</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n            </PORTLIST>\r\n         </ONTDATA>\r\n         <ONTDATA>\r\n            <ONTSERIALNUMBER>XX2</ONTSERIALNUMBER>\r\n            <ONTREFNUMBER>XX2</ONTREFNUMBER>\r\n            <ONTFLOOR>XX</ONTFLOOR>\r\n            <ONTROOM>XX</ONTROOM>\r\n            <ONTPOSITION>XX</ONTPOSITION>\r\n            <PORTLIST>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>1</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n               <ONTPORT>\r\n                  <ONTPORTNUMBER>2</ONTPORTNUMBER>\r\n                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>\r\n               </ONTPORT>\r\n            </PORTLIST>\r\n         </ONTDATA>\r\n      </ONTLIST>\r\n      <PREMISETYPE>Single Dwelling Unit Residential</PREMISETYPE>\r\n      <SERVICENOTES>UG Feed with no anticipated issues</SERVICENOTES>\r\n      <TMAMARKER />\r\n      <TMANOTICEORPERMIT>Notice</TMANOTICEORPERMIT>\r\n   </WBCFTTP>\r\n   <WBCFTTCGFAST>\r\n\t\t<RAG>G</RAG>\r\n\t\t<REASONCODE>Z</REASONCODE>\r\n\t\t<RANGEATOPDOWNSTREAMDATABANDWIDTH>338000</RANGEATOPDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEATOPUPSTREAMDATABANDWIDTH>6000</RANGEATOPUPSTREAMDATABANDWIDTH>\r\n\t\t<RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEABOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEABOTTOMUPSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBTOPDOWNSTREAMDATABANDWIDTH>338000</RANGEBTOPDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBTOPUPSTREAMDATABANDWIDTH>6000</RANGEBTOPUPSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>\r\n\t\t<RANGEBBOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEBBOTTOMUPSTREAMDATABANDWIDTH>\r\n\t\t<RANGEADOWNSTREAMHANDBACKTHRESHOLD />\r\n\t\t<RANGEBDOWNSTREAMHANDBACKTHRESHOLD />\r\n\t\t<MINRANGE />\r\n\t\t<MAXRANGE />\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>E</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t\t<AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>\r\n\t</WBCFTTCGFAST>\r\n   <FTTPONDEMAND>\r\n      <RAG>G</RAG>\r\n      <REASONCODE>G</REASONCODE>\r\n      <DOWNSPEED>330000</DOWNSPEED>\r\n      <UPSPEED>30000</UPSPEED>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n      <CAPACITY />\r\n   </FTTPONDEMAND>\r\n   <WBCMULTICAST>\r\n      <READYDATE />\r\n      <EXCHSTATE>E</EXCHSTATE>\r\n   </WBCMULTICAST>\r\n   <EXCHANGECODE>STALB</EXCHANGECODE>\r\n   <EXCHANGENAME>KESGRAVE</EXCHANGENAME>\r\n   <CABINETUNAVAILABILITYREASON>Cabinet Unavailability Reason from OR</CABINETUNAVAILABILITYREASON>\r\n   <POSTCODE />\r\n   <WBCFTTPFLAG>Y</WBCFTTPFLAG>\r\n   <ONTID>2011-031D9942</ONTID>\r\n   <ONTPORTPAIRAVAIL>2</ONTPORTPAIRAVAIL>\r\n   <SUGGESTEDMSG>Your exchange is ADSL enabled, and our initial test on your line indicates that your line should be able to have an ADSL broadband service that provides a fixed line speed up to 2Mbps. Our     test also indicates that your line currently supports an estimated ADSL Max broadband line speed of 7Mbps; typically the line speed would range between 6Mbps and 8Mbps. Currently capacity is not available to     fulfil ADSL Max orders. New capacity is expected from 15th August       2016. Our test also indicates that your line currently supports an estimated ADSL2+ broadband line speed of 9Mbps; typically the linespeed would range between 7.5Mbps and 10Mbps. Our test also indicates that your line could support an estimated ADSL 2+ Annex-M broadband upstream line speed of 1 Mbps and downstream line speed of 7 Mbps; typically the line speed would range between 6.5Mbps and 8Mbps. Currently capacity is not available to fulfil ADSL2+ and ADSL2+ Annex-M orders. New capacity is expected from 15th August 2016. Our test also indicates that your line currently supports a fibre       technology with an estimated WBC FTTC Broadband where customers are     capable of receiving downstream line speed between 16.5 to 21.5 Mbps and upstream line speed between 1.5 to 2.3 Mbps. The actual stable     line rate supportable will be determined during the first 10 days of use. This rate may change over time, to ensure line stability is maintained. If you decide to place an order, a further test will be performed to confirm if your line is suitable for the service you wish to purchase. Our test also indicates that your line currently supports     a WBC Fibre To The Premises technology with an estimated Broadband downstream line speed of up to 100 Mbps and upstream line speed of up to 30 Mbps. Our records show the following network service information for your premises:-Single Dwelling Unit Residential UG Feed with no anticipated issues.       Furthermore your exchange has been enabled for multicast services, please contact your provider for further     details. If you decide to place an order for a fibre product, an appointment might be required where an engineer may need to visit your   premises who will, where possible, supply the service. Thank you for your interest. Please note that postcode and address check results are indicative only. Most accurate results can be obtained from a telephone number check.</SUGGESTEDMSG>\r\n   <SUPPLEMENTARYMSG>Note: If you already have a Broadband service and you want to switch service providers, you will need to contact both your current provider and your new provider to get your service changed over new and existing service provider to have this service transferred.</SUPPLEMENTARYMSG>\r\n</ADSL_CHECKER>\r\n",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Date": [
+							"Mon, 02 Jul 2018 10:33:00 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/adslstub/adslchecker_xml.postcode"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "GET"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": ""
+						}
+					],
+					"query": {
+						"Input": [
+							{
+								"matcher": "glob",
+								"value": "*"
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<ADSL_CHECKER>\r\n\t<ERRORID>0</ERRORID>\r\n\t<INPUT>AL13AW</INPUT>\r\n\t<INPUTTYPE>POSTCODE</INPUTTYPE>\r\n\t<FIXEDRATE>\r\n\t\t<RAG>A</RAG>\r\n\t\t<REASONCODE>Z</REASONCODE>\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>E</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t</FIXEDRATE>\r\n\t<RATEADAPTIVE>\r\n\t\t<RAG>G</RAG>\r\n\t\t<REASONCODE>Z</REASONCODE>\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>E</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t</RATEADAPTIVE>\r\n\t<MAX>\r\n\t\t<RAG>G</RAG>\r\n\t\t<REASONCODE>Z</REASONCODE>\r\n\t\t<SPEED>2500</SPEED>\r\n\t\t<MINRANGE>1500</MINRANGE>\r\n\t\t<MAXRANGE>5000</MAXRANGE>\r\n\t\t<MINTHRESHOLD>3000</MINTHRESHOLD>\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>E</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t</MAX>\r\n\t<ADSL2PLUS_FIXEDRATE>\r\n\t\t<RAG>A</RAG>\r\n\t\t<REASONCODE>Z</REASONCODE>\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>E</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t</ADSL2PLUS_FIXEDRATE>\r\n\t<ADSL2PLUS_RATEADAPTIVE>\r\n\t\t<RAG>G</RAG>\r\n\t\t<REASONCODE>Z</REASONCODE>\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>E</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t</ADSL2PLUS_RATEADAPTIVE>\r\n\t<WBC>\r\n\t\t<RAG />\r\n\t\t<REASONCODE />\r\n\t\t<SPEED />\r\n\t\t<MINRANGE />\r\n\t\t<MAXRANGE />\r\n\t\t<MINTHRESHOLD />\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>N</EXCHSTATE>\r\n\t\t<CAPACITY />\r\n\t</WBC>\r\n\t<WBCFTTC>\r\n\t\t<RAG />\r\n\t\t<REASONCODE />\r\n\t\t<BESTDOWNSPEED />\r\n\t\t<BESTUPSPEED />\r\n\t\t<WORSTDOWNSPEED />\r\n\t\t<WORSTUPSPEED />\r\n\t\t<MINRANGE />\r\n\t\t<MAXRANGE />\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE />\r\n\t\t<CAPACITY />\r\n\t\t<FTTCPERCENTAGECOVERAGE />\r\n\t</WBCFTTC>\r\n\t<WBCFTTP>\r\n\t\t<RAG />\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>N</EXCHSTATE>\r\n\t\t<FTTPPERCENTAGECOVERAGE />\r\n\t</WBCFTTP>\r\n\t<FTTPONDEMAND>\r\n\t\t<RAG />\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>N</EXCHSTATE>\r\n\t\t<FODPERCENTAGECOVERAGE />\r\n\t</FTTPONDEMAND>\r\n\t<COPPERMULTICAST>\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>N</EXCHSTATE>\r\n\t</COPPERMULTICAST>\r\n\t<FIBREMULTICAST>\r\n\t\t<READYDATE />\r\n\t\t<EXCHSTATE>N</EXCHSTATE>\r\n\t</FIBREMULTICAST>\r\n\t<PRODUCTWITHDRAWAL>\r\n\t\t<DSLASTPROVIDE />\r\n\t\t<DSLASTMODIFY />\r\n\t\t<IPSLASTPROVIDE>04-12-2016</IPSLASTPROVIDE>\r\n\t\t<IPSLASTMODIFY>04-12-2014</IPSLASTMODIFY>\r\n\t</PRODUCTWITHDRAWAL>\r\n\t<EXCHANGECODE>STALB</EXCHANGECODE>\r\n\t<EXCHANGENAME>HARLEQUINS SYS X</EXCHANGENAME>\r\n\t<VPCONTENTION />\r\n\t<SUGGESTEDMSG>\r\n\t\tFor all ADSL and WBC Fibre to the Cabinet (FTTC) services, the stable\r\n\t\tline rate will be determined during the first 10 days of service\r\n\t\tusage. Throughput/download speeds will be less than line rates and can\r\n\t\tbe affected by a number of factors within and external to BT's\r\n\t\tnetwork, Communication Providers' networks and within customer\r\n\t\tpremises. The Stop Sale date for IPstream is from 04-Dec-2016; the\r\n\t\tFormal Retirement date for IPstream is from 04-Dec-2014.\r\n\t</SUGGESTEDMSG>\r\n\t<SUPPLEMENTARYMSG>\r\n\t\tNote: Please note that postcode and address check results are indicative\r\n\t\tonly. Most accurate results can be obtained from a telephone number\r\n\t\tcheck. Thank you for your interest.\r\n\t</SUPPLEMENTARYMSG>\r\n</ADSL_CHECKER>\r\n",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Date": [
+							"Mon, 02 Jul 2018 10:33:02 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": [
+				{
+				   "urlPattern": "adslstub/adslchecker_xml.telno",
+				   "httpMethod": "GET",
+				   "delay": 1000
+				},
+				{
+				   "urlPattern": "adslstub/adslchecker_xml.address",
+				   "httpMethod": "GET",
+				   "delay": 1000
+				},
+				{
+				   "urlPattern": "/adslstub/adslchecker_xml.postcode",
+				   "httpMethod": "GET",
+				   "delay": 1000
+				}
+			]
+		}
+	},
+	"meta": {
+		"schemaVersion": "v5",
+		"hoverflyVersion": "v0.17.0",
+		"timeExported": "2018-07-02T16:03:40+05:30"
+	}
+}

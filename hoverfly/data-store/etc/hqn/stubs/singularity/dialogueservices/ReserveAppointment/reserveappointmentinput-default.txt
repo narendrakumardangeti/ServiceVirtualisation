@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:dial="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+   <soap:Header/>
+   <soap:Body>
+      <dial:ReserveAppointmentResponse>
+         <dial:ReserveAppointmentResult>
+            <dial:ListOfError></dial:ListOfError>
+            <dial:RequestStatus>Accepted</dial:RequestStatus>
+            <dial:Action>Provide</dial:Action>
+            <dial:AddressReference>A00091411901</dial:AddressReference>
+            <dial:AppointmentDate>31/08/2012</dial:AppointmentDate>
+            <dial:AppointmentReference>2</dial:AppointmentReference>
+            <dial:AppointmentTimeSlot></dial:AppointmentTimeSlot>
+            <dial:AppointmentType>Standard</dial:AppointmentType>
+            <dial:CSSDistrictCode>ST</dial:CSSDistrictCode>
+            <dial:DirectoryNumber></dial:DirectoryNumber>
+            <dial:EarliestAppointmentDate>31/08/2012</dial:EarliestAppointmentDate>
+            <dial:EarliestAppointmentTimeslot>2</dial:EarliestAppointmentTimeslot>
+            <dial:LineType>Basic</dial:LineType>
+            <dial:Quantity>1</dial:Quantity>
+            <dial:ServiceLevel></dial:ServiceLevel>
+            <dial:ServiceType>WLR Single Line</dial:ServiceType>
+         </dial:ReserveAppointmentResult>
+      </dial:ReserveAppointmentResponse>
+   </soap:Body>
+</soap:Envelope>

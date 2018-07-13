@@ -1,0 +1,28 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <AddressSearchResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+         <AddressSearchResult>
+            <ListOfError/>
+            <RequestStatus>Accepted</RequestStatus>
+            <AddressReference>A00091422349</AddressReference>
+            <Country>United Kingdom</Country>
+            <County>LONDON</County>
+            <CSSDistrictCode>CL</CSSDistrictCode>
+            <DependentThoroughFareName/>
+            <DoubleDependentLocality/>
+            <DPSparePairs/>
+            <ListOfAddress><![CDATA[<ListOfAddress><Address xmlns=""><OrganisationName /><POBox /><SubPremises /><PremisesName /><ThoroughfareNumber>4</ThoroughfareNumber><DependentThoroughfareName /><ThoroughfareName>SPINNERS WALK</ThoroughfareName><DoubleDependentLocality /><Locality /><PostTown>WESTMINSTER</PostTown><County>LONDON</County><PostCode>WM8 7SY</PostCode><Country>United Kingdom</Country><RefNum>A00091422340</RefNum><Qualifier>Gold</Qualifier><DistrictCode>CL</DistrictCode></Address><Address xmlns=""><OrganisationName /><POBox /><SubPremises /><PremisesName /><ThoroughfareNumber>10</ThoroughfareNumber><DependentThoroughfareName /><ThoroughfareName>Walpole Flats</ThoroughfareName><DoubleDependentLocality /><Locality /><PostTown>WESTMINSTER</PostTown><County>COUNTYANTRIM</County><PostCode>WM8 7SY</PostCode><Country>United Kingdom</Country><RefNum /><Qualifier>Silver</Qualifier><DistrictCode /><ListOfTechnology /></Address></ListOfAddress>]]></ListOfAddress>
+            <Locality/>
+            <OrganisationName/>
+            <PoBox/>
+            <PostCode>WM8 7SY</PostCode>
+            <PostTown>WESTMINSTER</PostTown>
+            <PremisesName/>
+            <Qualifier>Gold</Qualifier>
+            <SubPremises/>
+            <ThoroughFareName>SPINNERS WALK</ThoroughFareName>
+            <ThoroughFareNumber>4</ThoroughFareNumber>
+         </AddressSearchResult>
+      </AddressSearchResponse>
+   </soap:Body>
+</soap:Envelope>

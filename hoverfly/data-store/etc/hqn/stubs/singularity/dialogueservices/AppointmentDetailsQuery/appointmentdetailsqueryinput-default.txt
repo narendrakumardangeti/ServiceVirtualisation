@@ -1,0 +1,28 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<AppointmentDetailsQueryResponse
+			xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue"
+			xmlns:ns2="urn:Bearer">
+			<AppointmentDetailsQueryResult>
+				<ListOfError>&lt;ListOfError&gt;&lt;Error&gt;&lt;CompletionCode&gt;2100&lt;/CompletionCode&gt;&lt;Code
+					/&gt;&lt;Message&gt;Success&lt;/Message&gt;&lt;Severity
+					/&gt;&lt;/Error&gt;&lt;/ListOfError&gt;</ListOfError>
+				<RequestStatus>Accepted</RequestStatus>
+				<Action>Provide</Action>
+				<AddressReference>A02200005202</AddressReference>
+				<AppointmentDate>2016-12-19T00:00:00.000Z</AppointmentDate>
+				<AppointmentReference>FTH6HCIJ</AppointmentReference>
+				<AppointmentTimeslot>AM</AppointmentTimeslot>
+				<AppointmentType>Standard</AppointmentType>
+				<EarliestAppointmentDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<EarliestAppointmentTimeslot>2</EarliestAppointmentTimeslot>
+				<LineType>Basic</LineType>
+				<Quantity>1</Quantity>
+				<ServiceLevel>2</ServiceLevel>
+				<ServiceType>WLR Single Line</ServiceType>
+			</AppointmentDetailsQueryResult>
+		</AppointmentDetailsQueryResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

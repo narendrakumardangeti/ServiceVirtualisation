@@ -1,0 +1,53 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <InstallationDetailsQueryResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+         <InstallationDetailsQueryResult>
+            <ListOfError><![CDATA[<ListOfError><Error><CompletionCode>2000</CompletionCode><Code /><Message>Request Successful</Message><Severity>Informational</Severity></Error></ListOfError>]]></ListOfError>
+            <RequestStatus>Accepted</RequestStatus>
+            <AccessType/>
+            <AddressReference>A00091473025</AddressReference>
+            <AuxLineQuantity>0</AuxLineQuantity>
+            <BusinessContinuityFlag>false</BusinessContinuityFlag>
+            <CareLevel>3111111111111</CareLevel>
+            <CPSPresent>false</CPSPresent>
+            <CSSDistrictCode>ST</CSSDistrictCode>
+            <CSSExchangeGroupCode>KLN</CSSExchangeGroupCode>
+            <CSSExchangeType>AXE10</CSSExchangeType>
+            <DebtManagementIndicator/>
+            <EUConsent>true</EUConsent>
+            <InstallationFloor/>
+            <InstallationFloorPosition/>
+            <InstallationRoom/>
+            <InstallationType>Standard</InstallationType>
+            <LineType>Basic</LineType>
+            <ListOfBearer/>
+            <ListOfDDI/>
+            <ListOfDirectoryEntry><![CDATA[<ListOfDirectoryInfo><DirectoryInfo><MainBillingNumberSequenceNumber /><MainBillingNumberRef>MBN1</MainBillingNumberRef><MainLine><Directory><DirectoryAction /><DirectoryTitle /><TradingTitleSurname>R</TradingTitleSurname><Initial>V</Initial><DirectoryEntryDescription /><BusinessName /><BusinessDescription /><DirectoryType>DQR</DirectoryType><LocationOption>Business</LocationOption><DoctorOfMedicine>N</DoctorOfMedicine><PartialAddressRequired>N</PartialAddressRequired><GroupListingRequired>Y</GroupListingRequired><EUContactPermission /><ListNonInstallationAddress>N</ListNonInstallationAddress><FAXMinicom>N</FAXMinicom></Directory></MainLine></DirectoryInfo><DirectoryInfo><MainBillingNumberSequenceNumber /><MainBillingNumberRef>MBN1</MainBillingNumberRef><CallSign><Directory><DirectoryAction /><DirectoryTitle /><TradingTitleSurname>R</TradingTitleSurname><Initial>V</Initial><DirectoryEntryDescription /><BusinessName /><BusinessDescription /><DirectoryType>DQR</DirectoryType><LocationOption>Business</LocationOption><DoctorOfMedicine>N</DoctorOfMedicine><PartialAddressRequired>N</PartialAddressRequired><GroupListingRequired>Y</GroupListingRequired><EUContactPermission /><ListNonInstallationAddress>N</ListNonInstallationAddress><FAXMinicom>N</FAXMinicom></Directory></CallSign></DirectoryInfo></ListOfDirectoryInfo>]]></ListOfDirectoryEntry>
+            <ListOfIncompatibleFeature/>
+            <ListOfMainBillingNumber/>
+            <ListOfMSN/>
+            <ListOfPendingOrder/>			
+			<ListOfUnsupportedFeature><![CDATA[<ListOfUnsupportedService>
+						<Service>
+							<ServiceName>3rd Party Call Barring</ServiceName>
+						</Service>
+					</ListOfUnsupportedService>]]>
+			</ListOfUnsupportedFeature>
+	 
+            <NarrowbandServicesIndicator>false</NarrowbandServicesIndicator>
+            <NumberRetentionAllowed>false</NumberRetentionAllowed>
+            <OIDServiceType>PSTN Single Line</OIDServiceType>
+            <OwnershipConfirmation>true</OwnershipConfirmation>
+            <PayPhoneType/>
+            <Postcode/>
+            <ServiceID>01553686849</ServiceID>
+            <ServiceType>WLR Single Line</ServiceType>
+            <SMCContactRequired>false</SMCContactRequired>
+            <StandByPowerRequired>false</StandByPowerRequired>
+            <TempStructure>false</TempStructure>
+            <TerminationType>Line Box</TerminationType>
+            <WholesaleCallsPresent>true</WholesaleCallsPresent>
+         </InstallationDetailsQueryResult>
+      </InstallationDetailsQueryResponse>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <soap:Body>
+        <AddressDetailsQueryResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+            <AddressDetailsQueryResult>
+                <AddressReference>A00091422349</AddressReference>
+                <Country>United Kingdom</Country>
+                <County>LONDON</County>
+                <CSSDistrictCode>ST</CSSDistrictCode>
+                <CSSExchangeGroupCode>HLQ</CSSExchangeGroupCode>
+                <PostCode>WM8 7SY</PostCode>
+                <PostTown>WESTMINSTER</PostTown>
+                <ThoroughFareName>SPINNERS WALK</ThoroughFareName>
+                <ThoroughFareNumber>4</ThoroughFareNumber>
+            </AddressDetailsQueryResult>
+        </AddressDetailsQueryResponse>
+    </soap:Body>
+</soap:Envelope>
