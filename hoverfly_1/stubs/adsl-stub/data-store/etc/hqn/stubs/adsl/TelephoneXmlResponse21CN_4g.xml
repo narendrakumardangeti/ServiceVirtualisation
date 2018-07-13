@@ -1,0 +1,184 @@
+<ADSL_CHECKER>
+   <ERRORID>0</ERRORID>
+   <INPUT>02200007918</INPUT>
+   <INPUTTYPE>TELNO</INPUTTYPE>
+   <FIXEDRATE>
+      <RAG>R</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <READYDATE />
+      <EXCHSTATE>N</EXCHSTATE>
+      <CAPACITY />
+   </FIXEDRATE>
+   <RATEADAPTIVE>
+      <RAG>R</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <READYDATE />
+      <EXCHSTATE>N</EXCHSTATE>
+      <CAPACITY />
+   </RATEADAPTIVE>
+    <MAX>
+      <RAG>G</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <SPEED>7000</SPEED>
+      <MINRANGE>6000</MINRANGE>
+      <MAXRANGE>8000</MAXRANGE>
+      <MINTHRESHOLD>1000</MINTHRESHOLD>
+      <READYDATE />
+      <EXCHSTATE>E</EXCHSTATE>
+      <READYDATE>15-08-2016</READYDATE>
+      <CAPACITY />
+   </MAX>
+   <ADSL2PLUS_FIXEDRATE>
+      <RAG>G</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <READYDATE />
+      <EXCHSTATE>E</EXCHSTATE>
+      <CAPACITY />
+   </ADSL2PLUS_FIXEDRATE>
+   <ADSL2PLUS_RATEADAPTIVE>
+      <RAG>G</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <READYDATE />
+      <EXCHSTATE>E</EXCHSTATE>
+      <CAPACITY />
+   </ADSL2PLUS_RATEADAPTIVE>
+      <WBC>
+      <RAG>G</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <SPEED>9000</SPEED>
+      <MINRANGE>7500</MINRANGE>
+      <MAXRANGE>10000</MAXRANGE>
+      <MINTHRESHOLD>6000</MINTHRESHOLD>
+      <READYDATE>15-08-2016</READYDATE>
+      <EXCHSTATE>E</EXCHSTATE>
+      <CAPACITY />
+      <ANNEXMRAG>G</ANNEXMRAG>
+      <ANNEXMDOWNSPEED>7000</ANNEXMDOWNSPEED>
+      <ANNEXMMINSPEED>6500</ANNEXMMINSPEED>
+      <ANNEXMMAXSPEED>8000</ANNEXMMAXSPEED>
+      <ANNEXMUPSPEED>1000</ANNEXMUPSPEED>
+   </WBC>
+   <WBCFTTC>
+      <RAG>G</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <RANGEATOPDOWNSTREAMDATABANDWIDTH>338000</RANGEATOPDOWNSTREAMDATABANDWIDTH>
+      <RANGEATOPUPSTREAMDATABANDWIDTH>6000</RANGEATOPUPSTREAMDATABANDWIDTH>
+      <RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>
+      <RANGEABOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEABOTTOMUPSTREAMDATABANDWIDTH>
+      <RANGEBTOPDOWNSTREAMDATABANDWIDTH>338000</RANGEBTOPDOWNSTREAMDATABANDWIDTH>
+      <RANGEBTOPUPSTREAMDATABANDWIDTH>6000</RANGEBTOPUPSTREAMDATABANDWIDTH>
+      <RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>
+      <RANGEBBOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEBBOTTOMUPSTREAMDATABANDWIDTH>
+      <MINRANGE />
+      <MAXRANGE />
+      <READYDATE />
+      <EXCHSTATE>E</EXCHSTATE>
+      <CAPACITY />
+      <AVAILABILITY_FLAG>Y</AVAILABILITY_FLAG>
+        <BANDWIDTH18X2PROVIDEAVAILABLE>N</BANDWIDTH18X2PROVIDEAVAILABLE>
+        <BANDWIDTH18X2SIMAVAILABLE>N</BANDWIDTH18X2SIMAVAILABLE>
+   </WBCFTTC>
+   <WBCFTTP>
+      <RAG>G</RAG>
+      <REASONCODE>Z</REASONCODE>
+      <DOWNSPEED>100000</DOWNSPEED>
+      <UPSPEED>10000</UPSPEED>
+      <MINRANGE />
+      <MAXRANGE />
+      <READYDATE />
+      <EXCHSTATE>E</EXCHSTATE>
+      <CAPACITY />
+      <ONTLIST>
+         <ONTDATA>
+            <ONTSERIALNUMBER>XX1</ONTSERIALNUMBER>
+            <ONTREFNUMBER>XX1</ONTREFNUMBER>
+            <ONTFLOOR>XX</ONTFLOOR>
+            <ONTROOM>XX</ONTROOM>
+            <ONTPOSITION>XX</ONTPOSITION>
+            <BBUSTATUS>XX</BBUSTATUS>
+            <L2SID>BAAAAA</L2SID>
+            <PORTLIST>
+               <ONTPORT>
+                  <ONTPORTNUMBER>1</ONTPORTNUMBER>
+                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>
+               </ONTPORT>
+               <ONTPORT>
+                  <ONTPORTNUMBER>2</ONTPORTNUMBER>
+                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>
+               </ONTPORT>
+               <ONTPORT>
+                  <ONTPORTNUMBER>3</ONTPORTNUMBER>
+                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>
+               </ONTPORT>
+               <ONTPORT>
+                  <ONTPORTNUMBER>4</ONTPORTNUMBER>
+                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>
+               </ONTPORT>
+            </PORTLIST>
+         </ONTDATA>
+         <ONTDATA>
+            <ONTSERIALNUMBER>XX2</ONTSERIALNUMBER>
+            <ONTREFNUMBER>XX2</ONTREFNUMBER>
+            <ONTFLOOR>XX</ONTFLOOR>
+            <ONTROOM>XX</ONTROOM>
+            <ONTPOSITION>XX</ONTPOSITION>
+            <PORTLIST>
+               <ONTPORT>
+                  <ONTPORTNUMBER>1</ONTPORTNUMBER>
+                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>
+               </ONTPORT>
+               <ONTPORT>
+                  <ONTPORTNUMBER>2</ONTPORTNUMBER>
+                  <ONTPORTSTATUS>Working</ONTPORTSTATUS>
+               </ONTPORT>
+            </PORTLIST>
+         </ONTDATA>
+      </ONTLIST>
+      <PREMISETYPE>Single Dwelling Unit Residential</PREMISETYPE>
+      <SERVICENOTES>UG Feed with no anticipated issues</SERVICENOTES>
+      <TMAMARKER />
+      <TMANOTICEORPERMIT>Notice</TMANOTICEORPERMIT>
+   </WBCFTTP>
+   <WBCFTTCGFAST>
+		<RAG>G</RAG>
+		<REASONCODE>Z</REASONCODE>
+		<RANGEATOPDOWNSTREAMDATABANDWIDTH>338000</RANGEATOPDOWNSTREAMDATABANDWIDTH>
+		<RANGEATOPUPSTREAMDATABANDWIDTH>6000</RANGEATOPUPSTREAMDATABANDWIDTH>
+		<RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEABOTTOMDOWNSTREAMDATABANDWIDTH>
+		<RANGEABOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEABOTTOMUPSTREAMDATABANDWIDTH>
+		<RANGEBTOPDOWNSTREAMDATABANDWIDTH>338000</RANGEBTOPDOWNSTREAMDATABANDWIDTH>
+		<RANGEBTOPUPSTREAMDATABANDWIDTH>6000</RANGEBTOPUPSTREAMDATABANDWIDTH>
+		<RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>338000</RANGEBBOTTOMDOWNSTREAMDATABANDWIDTH>
+		<RANGEBBOTTOMUPSTREAMDATABANDWIDTH>6000</RANGEBBOTTOMUPSTREAMDATABANDWIDTH>
+		<RANGEADOWNSTREAMHANDBACKTHRESHOLD />
+		<RANGEBDOWNSTREAMHANDBACKTHRESHOLD />
+		<MINRANGE />
+		<MAXRANGE />
+		<READYDATE />
+		<EXCHSTATE>E</EXCHSTATE>
+		<CAPACITY />
+		<AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+	</WBCFTTCGFAST>
+   <FTTPONDEMAND>
+      <RAG>G</RAG>
+      <REASONCODE>G</REASONCODE>
+      <DOWNSPEED>330000</DOWNSPEED>
+      <UPSPEED>30000</UPSPEED>
+      <READYDATE />
+      <EXCHSTATE>E</EXCHSTATE>
+      <CAPACITY />
+   </FTTPONDEMAND>
+   <WBCMULTICAST>
+      <READYDATE />
+      <EXCHSTATE>E</EXCHSTATE>
+   </WBCMULTICAST>
+   <EXCHANGECODE>EAKES</EXCHANGECODE>
+   <EXCHANGENAME>KESGRAVE</EXCHANGENAME>
+   <CABINETUNAVAILABILITYREASON>Cabinet Unavailability Reason from OR</CABINETUNAVAILABILITYREASON>
+   <POSTCODE />
+   <WBCFTTPFLAG>Y</WBCFTTPFLAG>
+   <ONTID>2011-031D9942</ONTID>
+   <ONTPORTPAIRAVAIL>2</ONTPORTPAIRAVAIL>
+   <SUGGESTEDMSG>Your exchange is ADSL enabled, and our initial test on your line indicates that your line should be able to have an ADSL broadband service that provides a fixed line speed up to 2Mbps. Our     test also indicates that your line currently supports an estimated ADSL Max broadband line speed of 7Mbps; typically the line speed would range between 6Mbps and 8Mbps. Currently capacity is not available to     fulfil ADSL Max orders. New capacity is expected from 15th August       2016. Our test also indicates that your line currently supports an estimated ADSL2+ broadband line speed of 9Mbps; typically the linespeed would range between 7.5Mbps and 10Mbps. Our test also indicates that your line could support an estimated ADSL 2+ Annex-M broadband upstream line speed of 1 Mbps and downstream line speed of 7 Mbps; typically the line speed would range between 6.5Mbps and 8Mbps. Currently capacity is not available to fulfil ADSL2+ and ADSL2+ Annex-M orders. New capacity is expected from 15th August 2016. Our test also indicates that your line currently supports a fibre       technology with an estimated WBC FTTC Broadband where customers are     capable of receiving downstream line speed between 16.5 to 21.5 Mbps and upstream line speed between 1.5 to 2.3 Mbps. The actual stable     line rate supportable will be determined during the first 10 days of use. This rate may change over time, to ensure line stability is maintained. If you decide to place an order, a further test will be performed to confirm if your line is suitable for the service you wish to purchase. Our test also indicates that your line currently supports     a WBC Fibre To The Premises technology with an estimated Broadband downstream line speed of up to 100 Mbps and upstream line speed of up to 30 Mbps. Our records show the following network service information for your premises:-Single Dwelling Unit Residential UG Feed with no anticipated issues.       Furthermore your exchange has been enabled for multicast services, please contact your provider for further     details. If you decide to place an order for a fibre product, an appointment might be required where an engineer may need to visit your   premises who will, where possible, supply the service. Thank you for your interest. Please note that postcode and address check results are indicative only. Most accurate results can be obtained from a telephone number check.</SUGGESTEDMSG>
+   <SUPPLEMENTARYMSG>Note: If you already have a Broadband service and you want to switch service providers, you will need to contact both your current provider and your new provider to get your service changed over new and existing service provider to have this service transferred.</SUPPLEMENTARYMSG>
+</ADSL_CHECKER>

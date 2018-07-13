@@ -1,0 +1,36 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:dial="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+   <soap:Header/>
+   <soap:Body>
+      <dial:LineTestResponse>
+         <!--Optional:-->
+         <dial:LineTestResult>
+            <!--Optional:-->
+            <dial:ListOfError></dial:ListOfError>
+            <!--Optional:-->
+            <dial:RequestStatus>Accepted</dial:RequestStatus>
+            <dial:AppointmentRequired>true</dial:AppointmentRequired>
+            <!--Optional:-->
+            <dial:DiagnosisCode>T008</dial:DiagnosisCode>
+            <!--Optional:-->
+            <dial:DiagnosisDescription></dial:DiagnosisDescription>
+            <!--Optional:-->
+            <dial:DPType></dial:DPType>
+            <dial:FaultReportAdvised>true</dial:FaultReportAdvised>
+            <!--Optional:-->
+            <dial:LineStability></dial:LineStability>
+            <!--Optional:-->
+            <dial:LineTestReference>GeSS128025:128025</dial:LineTestReference>
+            <!--Optional:-->
+            <dial:MainFaultLocation>EX</dial:MainFaultLocation>
+            <!--Optional:-->
+            <dial:NetworkStability></dial:NetworkStability>
+            <!--Optional:-->
+            <dial:ServiceLevel>1</dial:ServiceLevel>
+            <!--Optional:-->
+            <dial:StabilityStatement></dial:StabilityStatement>
+            <!--Optional:-->
+            <dial:TestOutcome>Success</dial:TestOutcome>
+         </dial:LineTestResult>
+      </dial:LineTestResponse>
+   </soap:Body>
+</soap:Envelope>

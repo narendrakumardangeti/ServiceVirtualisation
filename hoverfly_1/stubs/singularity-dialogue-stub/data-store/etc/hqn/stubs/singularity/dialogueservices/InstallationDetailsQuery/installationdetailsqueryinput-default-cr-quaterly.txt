@@ -1,0 +1,48 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <InstallationDetailsQueryResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+         <InstallationDetailsQueryResult>
+            <ListOfError><![CDATA[<ListOfError><Error><CompletionCode>2000</CompletionCode><Code /><Message>Request Successful</Message><Severity>Informational</Severity></Error></ListOfError>]]></ListOfError>
+            <RequestStatus>Accepted</RequestStatus>
+            <AccessType/>
+            <AddressReference/>
+            <AuxLineQuantity>1</AuxLineQuantity>
+           <BusinessContinuityFlag>false</BusinessContinuityFlag>
+            <CareLevel/>
+            <CPSPresent>false</CPSPresent>
+            <CSSDistrictCode/>
+            <CSSExchangeGroupCode/>
+            <CSSExchangeType/>
+            <DebtManagementIndicator/>
+            <EUConsent>true</EUConsent>
+            <InstallationFloor/>
+            <InstallationFloorPosition/>
+            <InstallationRoom/>
+            <InstallationType/>
+            <LineType/>
+            <ListOfBearer/>
+            <ListOfDDI/>
+            <ListOfDirectoryEntry/>
+            <ListOfIncompatibleFeature/>
+            <ListOfMainBillingNumber><![CDATA[<ListOfMainBillingNumber><MainBillingNumber xmlns=""><MainBillingNumberSequenceNumber /><MainBillingNumberId>MBN1</MainBillingNumberId><NumberRetentionAllowed /><MainBillingNumberCLI /><MainBillingNumberRangeRef /><MainBillingNumberDetails><CPSPresent>False</CPSPresent><ListOfChannel><Channel /></ListOfChannel><ListOfReferenceDDI /></MainBillingNumberDetails></MainBillingNumber></ListOfMainBillingNumber>]]></ListOfMainBillingNumber>
+            <ListOfMSN>&lt;ListOfMSN /></ListOfMSN>
+            <ListOfPendingOrder/>
+            <ListOfUnsupportedFeature/>
+            <ListOfWLR3Feature><![CDATA[<ListOfCallingAndNetworkFeature><CallingAndNetworkFeature><CNFName /><MainBillingNumberSequenceNumber /><LineNumber>MBN1</LineNumber><FromCLI>_FromCLI</FromCLI><FeatureCLI>02890894530</FeatureCLI><CallerRedirectionType>Quaterly</CallerRedirectionType><CUPID /><CLIRwith1470Required /></CallingAndNetworkFeature></ListOfCallingAndNetworkFeature>]]></ListOfWLR3Feature>
+            <NarrowbandServicesIndicator>false</NarrowbandServicesIndicator>
+            <NumberRetentionAllowed>false</NumberRetentionAllowed>
+            <OIDServiceType>WLR CR</OIDServiceType>
+            <OwnershipConfirmation>false</OwnershipConfirmation>
+            <PayPhoneType/>
+            <Postcode>PE30 3AT</Postcode>
+            <ServiceID>CRAA_ServiceID</ServiceID>
+            <ServiceType>WLR CR</ServiceType>
+            <SMCContactRequired>false</SMCContactRequired>
+            <StandByPowerRequired>false</StandByPowerRequired>
+            <TempStructure>false</TempStructure>
+            <TerminationType>Line Box</TerminationType>
+            <WholesaleCallsPresent>false</WholesaleCallsPresent>
+         </InstallationDetailsQueryResult>
+      </InstallationDetailsQueryResponse>
+   </soap:Body>
+</soap:Envelope>

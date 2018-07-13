@@ -1,0 +1,153 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <LinePlantAvailabilityResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+         <LinePlantAvailabilityResult>
+            <ListOfError><![CDATA[<ListOfError><Error><CompletionCode>2000</CompletionCode><Code /><Message>Request Successful</Message><Severity>Informational</Severity></Error></ListOfError>]]></ListOfError>
+            <RequestStatus>Accepted</RequestStatus>
+            <AddressReference/>
+            <Country/>
+            <County/>
+            <CSSDistrictCode>_CSSDistrictCode</CSSDistrictCode>
+            <CSSExchangeGroupCode>_CSSExchangeGroupCode</CSSExchangeGroupCode>
+            <CSSExchangeType/>
+            <DependentThoroughFareName/>
+            <DesignDP>66</DesignDP>
+            <DoubleDependentLocality/>
+            <DPSparePairs>60</DPSparePairs>
+            <ListOfAddress/>
+            <ListOfStoppedLine><![CDATA[<ListOfStoppedLine>
+	<StoppedLine xmlns="">
+		<ServiceId>017StoppedServiceId_0</ServiceId>
+		<LastWorkingPartialDN></LastWorkingPartialDN>
+		<StoppedDate></StoppedDate>
+		<ProductType>PSTN Single Line</ProductType>
+		<StoppedLineLocation>_CSSDistrictCode</StoppedLineLocation>
+		<TechnologyType></TechnologyType>
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>_CSSExchangeGroupCode</ExchangeGroupCode>
+		<CSSExchangeType>NDXD09</CSSExchangeType>
+		<ISDN2eStandardCapable></ISDN2eStandardCapable>
+		<ISDN2eSystemCapable></ISDN2eSystemCapable>
+	</StoppedLine>
+	<StoppedLine xmlns="">
+		<ServiceId>018StoppedOtherServiceId_0</ServiceId>
+		<LastWorkingPartialDN></LastWorkingPartialDN>
+		<StoppedDate></StoppedDate>
+		<ProductType>PSTN Single Line</ProductType>
+		<StoppedLineLocation>_CSSDistrictCode</StoppedLineLocation>
+		<TechnologyType></TechnologyType>
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>_CSSExchangeGroupCode</ExchangeGroupCode>
+		<CSSExchangeType>NDXD09</CSSExchangeType>
+		<ISDN2eStandardCapable></ISDN2eStandardCapable>
+		<ISDN2eSystemCapable></ISDN2eSystemCapable>
+	</StoppedLine>
+	<StoppedLine xmlns="">
+		<ServiceId>LLST_MPFStoppedLineServiceId_0</ServiceId>
+		<LastWorkingPartialDN />
+		<StoppedDate>25/05/2015</StoppedDate>
+		<ProductType>MPF</ProductType>
+		<StoppedLineLocation>_CSSDistrictCode</StoppedLineLocation>
+		<TechnologyType>DACS</TechnologyType>
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>_CSSExchangeGroupCode</ExchangeGroupCode>
+		<CSSExchangeType>21CN</CSSExchangeType>
+	</StoppedLine>
+	
+	<StoppedLine xmlns="">
+		<ServiceId>LLST_MPFStoppedLineServiceId_1</ServiceId>
+		<LastWorkingPartialDN />
+		<StoppedDate>25/05/2015</StoppedDate>
+		<ProductType>SMPF</ProductType>
+		<StoppedLineLocation>_CSSDistrictCode</StoppedLineLocation>
+		<TechnologyType>DACS</TechnologyType>
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>_CSSExchangeGroupCode</ExchangeGroupCode>
+		<CSSExchangeType>21CN</CSSExchangeType>
+	</StoppedLine>
+</ListOfStoppedLine>]]></ListOfStoppedLine>
+            <ListOfWorkingLine><![CDATA[<ListOfWorkingLine>
+	<WorkingLine xmlns="">
+		<ServiceId>019WorkingServiceId_0</ServiceId>
+		<NumberRetentionAllowed>Y</NumberRetentionAllowed>
+		<PartialDN />
+		<AccessLineId>C0019WorkingServiceId_0</AccessLineId>
+		<ProductType>PSTN Single Line</ProductType>
+		<PendingCeaseOrderIndicator>N</PendingCeaseOrderIndicator>
+		<PendingCeaseCompletionDate />
+		<WorkingLineLocation>_CSSDistrictCode</WorkingLineLocation>
+		<TechnologyType />
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>_CSSExchangeGroupCode</ExchangeGroupCode>
+		<CSSExchangeType>NDXD09</CSSExchangeType>
+	</WorkingLine>
+	<WorkingLine xmlns="">
+		<ServiceId></ServiceId>
+		<NumberRetentionAllowed>Y</NumberRetentionAllowed>
+		<PartialDN />
+		<AccessLineId>C0015WorkingOtherAccessLineId_0</AccessLineId>
+		<ProductType>PSTN Single Line</ProductType>
+		<PendingCeaseOrderIndicator>N</PendingCeaseOrderIndicator>
+		<PendingCeaseCompletionDate />
+		<WorkingLineLocation>_CSSDistrictCode</WorkingLineLocation>
+		<TechnologyType />
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>_CSSExchangeGroupCode</ExchangeGroupCode>
+		<CSSExchangeType>NDXD09</CSSExchangeType>
+	</WorkingLine>
+	<WorkingLine xmlns="">
+		<ServiceId />
+		<NumberRetentionAllowed>Y</NumberRetentionAllowed>
+		<PartialDN />
+		<AccessLineId>MTU_MPFWorkingAccessLineId_0M1</AccessLineId>
+		<ProductType>MPF</ProductType>
+		<PendingCeaseOrderIndicator>N</PendingCeaseOrderIndicator>
+		<PendingCeaseCompletionDate />
+		<WorkingLineLocation>_CSSDistrictCode</WorkingLineLocation>
+		<TechnologyType />
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>_CSSExchangeGroupCode</ExchangeGroupCode>
+		<CSSExchangeType>21CN</CSSExchangeType>
+	</WorkingLine>
+	<WorkingLine xmlns="">
+		<ServiceId />
+		<NumberRetentionAllowed>Y</NumberRetentionAllowed>
+		<PartialDN />
+		<AccessLineId>ST_MPFWorkingAccessLineId_1X</AccessLineId>
+		<ProductType>SMPF</ProductType>
+		<PendingCeaseOrderIndicator>N</PendingCeaseOrderIndicator>
+		<PendingCeaseCompletionDate />
+		<WorkingLineLocation>ST</WorkingLineLocation>
+		<TechnologyType />
+		<TerminationType>Line Box</TerminationType>
+		<InstallationType>Standard</InstallationType>
+		<ExchangeGroupCode>KLN</ExchangeGroupCode>
+		<CSSExchangeType>SAX</CSSExchangeType>
+	</WorkingLine>
+</ListOfWorkingLine>]]></ListOfWorkingLine>
+            <Locality/>
+            <OrganisationName/>
+            <PoBox/>
+            <PostCode/>
+            <PostTown/>
+            <PremisesName/>
+            <Qualifier/>
+            <ResultsTruncatedFlag>true</ResultsTruncatedFlag>
+            <ResultType/>
+            <RetentionOfCLIPossible>false</RetentionOfCLIPossible>
+            <StoppedLineQty>0</StoppedLineQty>
+            <SubPremises/>
+            <ThoroughFareName/>
+            <ThoroughFareNumber/>
+            <WorkingLineQty>694</WorkingLineQty>
+         </LinePlantAvailabilityResult>
+      </LinePlantAvailabilityResponse>
+   </soap:Body>
+</soap:Envelope>

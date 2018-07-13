@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soap:Body>
+		<AddAddressResponse
+			xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+			<AddAddressResult>
+				<ListOfError />
+				<RequestStatus>Accepted</RequestStatus>
+				<AddressReference>B90000093371</AddressReference>
+				<Country />
+				<County>LONDON</County>
+				<CSSDistrictCode>CL</CSSDistrictCode>
+				<CSSExchangeGroupCode>MOO</CSSExchangeGroupCode>
+				<DependentThoroughFareName />
+				<DoubleDependentLocality />
+				<Locality />
+				<OrganisationName />
+				<PoBox />
+				<PostCode>AL3 4HX</PostCode>
+				<PostTown>HERTFORDSH</PostTown>
+				<PremisesName />
+				<SubPremises />
+				<ThoroughFareName>Corinium Gate</ThoroughFareName>
+				<ThoroughFareNumber>1</ThoroughFareNumber>
+			</AddAddressResult>
+		</AddAddressResponse>
+	</soap:Body>
+</soap:Envelope>

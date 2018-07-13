@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <RequestAvailableAppointmentResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue">
+      <RequestAvailableAppointmentResult>
+        <ListOfError>
+        &lt;ListOfError&gt;&lt;Error&gt;&lt;CompletionCode&gt;2100&lt;/CompletionCode&gt;&lt;Code
+        /&gt;&lt;Message&gt;Success&lt;/Message&gt;&lt;Severity&gt;Informational&lt;/Severity&gt;&lt;/Error&gt;&lt;/ListOfError&gt;</ListOfError>
+        <RequestStatus>Accepted</RequestStatus>
+        <Action>Provide</Action>
+        <AddressReference>A00091411901</AddressReference>
+        <AppointmentType>Standard</AppointmentType>
+        <CSSDistrictCode>ST</CSSDistrictCode>
+        <DirectoryNumber />
+        <LineType>Basic</LineType>
+        <ListOfAvailableAppointment>
+        &lt;ListOfAppointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;31/05/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;31/05/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;01/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;01/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;04/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;04/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;05/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;05/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;06/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;06/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;07/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;07/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;08/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment
+        xmlns=""&gt;&lt;AppointmentDate&gt;08/06/2012&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;/ListOfAppointment&gt;</ListOfAvailableAppointment>
+        <Quantity>1</Quantity>
+        <ServiceLevel>1</ServiceLevel>
+        <ServiceType>WLR Single Line</ServiceType>
+        <StartDate>31/05/2012</StartDate>
+      </RequestAvailableAppointmentResult>
+    </RequestAvailableAppointmentResponse>
+  </soap:Body>
+</soap:Envelope>

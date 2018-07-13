@@ -1,0 +1,470 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*AddressDetailsQuery*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><AddressDetailsQueryResponse xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><AddressDetailsQueryResult><AddressReference>A0210000592220</AddressReference><Country>United Kingdom</Country><County>LONDON</County><CSSDistrictCode>ST</CSSDistrictCode><CSSExchangeGroupCode>ALB</CSSExchangeGroupCode><PostCode>WM8 7SY</PostCode><PostTown>WESTMINSTER</PostTown><ThoroughFareName>SPINNERS WALK</ThoroughFareName><ThoroughFareNumber>4</ThoroughFareNumber></AddressDetailsQueryResult></AddressDetailsQueryResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"Tue, 03 Jul 2018 07:03:03 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "<env:Envelope xmlns:env=\"http://www.w3.org/2003/05/soap-envelope\">*<env:Header/>*<env:Body>*<ns2:AddressSearch xmlns:ns2=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns3=\"urn:Bearer\" xmlns:ns4=\"http://singularity.co.uk/WLR3.CRM.Web.Services\" xmlns:ns5=\"Singularity.WLR3.Application.Core.Domain.Beans\" xmlns:ns6=\"urn:ServiceISDNNumberRange\" xmlns:ns7=\"urn:ServiceISDNChannelGroup\" xmlns:ns8=\"urn:ServiceISDNChannel\" xmlns:ns9=\"Singularity.WLR3.Application.Core.Domain.Entities\">*<ns2:input>*<ns2:cpaID>HarlequinsD2</ns2:cpaID>*<ns2:DoubleDependentLocality/>*<ns2:PostCode>BL3*</ns2:PostCode>*<ns2:PremisesName/>*<ns2:ThoroughFareNumber/>*</ns2:input>*</ns2:AddressSearch>*</env:Body>\n</env:Envelope>"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><AddressSearchResponse xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><AddressSearchResult><ListOfError></ListOfError><RequestStatus>Accepted</RequestStatus><AddressReference>A02100005933</AddressReference><Country>United Kingdom</Country><County>LONDON</County><CSSDistrictCode>ST</CSSDistrictCode><DependentThoroughFareName></DependentThoroughFareName><DoubleDependentLocality></DoubleDependentLocality><DPSparePairs></DPSparePairs><ListOfAddress>&lt;?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?&gt;&lt;ListOfAddress&gt;&lt;Address&gt;&lt;OrganisationName&gt;&lt;/OrganisationName&gt;&lt;POBox&gt;&lt;/POBox&gt;&lt;SubPremises&gt;&lt;/SubPremises&gt;&lt;PremisesName&gt;&lt;/PremisesName&gt;&lt;ThoroughfareNumber&gt;4&lt;/ThoroughfareNumber&gt;&lt;DependentThoroughfareName&gt;&lt;/DependentThoroughfareName&gt;&lt;ThoroughfareName&gt;SPINNERS WALK&lt;/ThoroughfareName&gt;&lt;DoubleDependentLocality&gt;&lt;/DoubleDependentLocality&gt;&lt;Locality&gt;&lt;/Locality&gt;&lt;PostTown&gt;WESTMINSTER&lt;/PostTown&gt;&lt;County&gt;LONDON&lt;/County&gt;&lt;PostCode&gt;BL3 4HX&lt;/PostCode&gt;&lt;Country&gt;United Kingdom&lt;/Country&gt;&lt;RefNum&gt;A02100005933&lt;/RefNum&gt;&lt;Qualifier&gt;Gold&lt;/Qualifier&gt;&lt;DistrictCode&gt;ST&lt;/DistrictCode&gt;&lt;/Address&gt;&lt;Address&gt;&lt;OrganisationName&gt;&lt;/OrganisationName&gt;&lt;POBox&gt;&lt;/POBox&gt;&lt;SubPremises&gt;&lt;/SubPremises&gt;&lt;PremisesName&gt;&lt;/PremisesName&gt;&lt;ThoroughfareNumber&gt;10&lt;/ThoroughfareNumber&gt;&lt;DependentThoroughfareName&gt;&lt;/DependentThoroughfareName&gt;&lt;ThoroughfareName&gt;Walpole Flats&lt;/ThoroughfareName&gt;&lt;DoubleDependentLocality&gt;&lt;/DoubleDependentLocality&gt;&lt;Locality&gt;&lt;/Locality&gt;&lt;PostTown&gt;WESTMINSTER&lt;/PostTown&gt;&lt;County&gt;COUNTYANTRIM&lt;/County&gt;&lt;PostCode&gt;BL3 4HX&lt;/PostCode&gt;&lt;Country&gt;United Kingdom&lt;/Country&gt;&lt;RefNum&gt;&lt;/RefNum&gt;&lt;Qualifier&gt;Silver&lt;/Qualifier&gt;&lt;DistrictCode&gt;&lt;/DistrictCode&gt;&lt;/Address&gt;&lt;/ListOfAddress&gt;</ListOfAddress><Locality></Locality><OrganisationName></OrganisationName><PoBox></PoBox><PostCode>BL3 4HX</PostCode><PostTown>WESTMINSTER</PostTown><PremisesName></PremisesName><Qualifier>Gold</Qualifier><SubPremises></SubPremises><ThoroughFareName>SPINNERS WALK</ThoroughFareName><ThoroughFareNumber>4</ThoroughFareNumber></AddressSearchResult></AddressSearchResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"*"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*AppointmentDetailsQuery*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><AppointmentDetailsQueryResponse xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><AppointmentDetailsQueryResult><ListOfError>&lt;ListOfError&gt;&lt;Error&gt;&lt;CompletionCode&gt;2100&lt;/CompletionCode&gt;&lt;Code\n\t\t\t\t\t/&gt;&lt;Message&gt;Success&lt;/Message&gt;&lt;Severity\n\t\t\t\t\t/&gt;&lt;/Error&gt;&lt;/ListOfError&gt;</ListOfError><RequestStatus>Accepted</RequestStatus><Action>Provide</Action><AddressReference>A00010050003</AddressReference><AppointmentDate>2018-08-22T12:33:27.452+05:30</AppointmentDate><AppointmentReference>10050003</AppointmentReference><AppointmentTimeslot>AM</AppointmentTimeslot><AppointmentType>Standard</AppointmentType><EarliestAppointmentDate xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:nil=\"true\"/><EarliestAppointmentTimeslot>2</EarliestAppointmentTimeslot><LineType>Basic</LineType><Quantity>1</Quantity><ServiceLevel>2</ServiceLevel><ServiceType>WLR Single Line</ServiceType></AppointmentDetailsQueryResult></AppointmentDetailsQueryResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"Tue, 03 Jul 2018 07:03:27 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*InstallationDetailsQuery*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><InstallationDetailsQueryResponse xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><InstallationDetailsQueryResult><ListOfError>&lt;ListOfError&gt;&lt;Error&gt;&lt;CompletionCode&gt;2000&lt;/CompletionCode&gt;&lt;Code /&gt;&lt;Message&gt;Request Successful&lt;/Message&gt;&lt;Severity&gt;Informational&lt;/Severity&gt;&lt;/Error&gt;&lt;/ListOfError&gt;</ListOfError><RequestStatus>Accepted</RequestStatus><AccessType></AccessType><AuxLineQuantity>1</AuxLineQuantity><BusinessContinuityFlag>false</BusinessContinuityFlag><CareLevel></CareLevel><CPSPresent>false</CPSPresent><CSSDistrictCode>ST</CSSDistrictCode><CSSExchangeGroupCode>ALB</CSSExchangeGroupCode><CSSExchangeType></CSSExchangeType><DebtManagementIndicator></DebtManagementIndicator><EUConsent>true</EUConsent><InstallationFloor></InstallationFloor><InstallationFloorPosition></InstallationFloorPosition><InstallationRoom></InstallationRoom><InstallationType></InstallationType><LineType></LineType><ListOfBearer></ListOfBearer><ListOfDDI></ListOfDDI><ListOfDirectoryEntry></ListOfDirectoryEntry><ListOfIncompatibleFeature></ListOfIncompatibleFeature><ListOfMainBillingNumber>&lt;ListOfMainBillingNumber&gt;&lt;MainBillingNumber xmlns=\"\"&gt;&lt;MainBillingNumberSequenceNumber /&gt;&lt;MainBillingNumberId&gt;MBN1&lt;/MainBillingNumberId&gt;&lt;NumberRetentionAllowed /&gt;&lt;MainBillingNumberCLI /&gt;&lt;MainBillingNumberRangeRef /&gt;&lt;MainBillingNumberDetails&gt;&lt;CPSPresent&gt;False&lt;/CPSPresent&gt;&lt;ListOfChannel&gt;&lt;Channel /&gt;&lt;/ListOfChannel&gt;&lt;ListOfReferenceDDI /&gt;&lt;/MainBillingNumberDetails&gt;&lt;/MainBillingNumber&gt;&lt;/ListOfMainBillingNumber&gt;</ListOfMainBillingNumber><ListOfMSN>&lt;ListOfMSN /&gt;</ListOfMSN><ListOfPendingOrder></ListOfPendingOrder><ListOfUnsupportedFeature></ListOfUnsupportedFeature><ListOfWLR3Feature>&lt;ListOfCallingAndNetworkFeature&gt;&lt;CallingAndNetworkFeature&gt;&lt;CNFName /&gt;&lt;MainBillingNumberSequenceNumber /&gt;&lt;LineNumber&gt;MBN1&lt;/LineNumber&gt;&lt;FromCLI&gt;02890894501&lt;/FromCLI&gt;&lt;FeatureCLI&gt;02890894530&lt;/FeatureCLI&gt;&lt;CallerRedirectionType&gt;Monthly&lt;/CallerRedirectionType&gt;&lt;CUPID /&gt;&lt;CLIRwith1470Required /&gt;&lt;/CallingAndNetworkFeature&gt;&lt;/ListOfCallingAndNetworkFeature&gt;</ListOfWLR3Feature><NarrowbandServicesIndicator>false</NarrowbandServicesIndicator><NumberRetentionAllowed>false</NumberRetentionAllowed><OIDServiceType>WLR RCF</OIDServiceType><OwnershipConfirmation>false</OwnershipConfirmation><PayPhoneType></PayPhoneType><Postcode>BL3 4HX</Postcode><ServiceID>RCFA99999996</ServiceID><ServiceType>WLR RCF</ServiceType><SMCContactRequired>false</SMCContactRequired><StandByPowerRequired>false</StandByPowerRequired><TempStructure>false</TempStructure><TerminationType>Line Box</TerminationType><WholesaleCallsPresent>false</WholesaleCallsPresent></InstallationDetailsQueryResult></InstallationDetailsQueryResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"Tue, 03 Jul 2018 07:03:55 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*LeadtimeCalculator2*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><LeadtimeCalculator2Response xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><LeadtimeCalculator2Result><RequestStatus>Success</RequestStatus><MinimumLeadtime>3</MinimumLeadtime></LeadtimeCalculator2Result></LeadtimeCalculator2Response></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"Tue, 03 Jul 2018 07:04:03 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*LinePlantAvailability*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><LinePlantAvailabilityResponse xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><LinePlantAvailabilityResult><ListOfError>&lt;ListOfError&gt;&lt;Error&gt;&lt;CompletionCode&gt;2000&lt;/CompletionCode&gt;&lt;Code /&gt;&lt;Message&gt;Request Successful&lt;/Message&gt;&lt;Severity&gt;Informational&lt;/Severity&gt;&lt;/Error&gt;&lt;/ListOfError&gt;</ListOfError><RequestStatus>Accepted</RequestStatus><AddressReference>A02100235708</AddressReference><Country></Country><County></County><CSSDistrictCode>CL</CSSDistrictCode><CSSExchangeGroupCode>ALB</CSSExchangeGroupCode><CSSExchangeType></CSSExchangeType><DependentThoroughFareName></DependentThoroughFareName><DesignDP>66</DesignDP><DoubleDependentLocality></DoubleDependentLocality><DPSparePairs>60</DPSparePairs><ListOfAddress></ListOfAddress><ListOfStoppedLine>&lt;ListOfStoppedLine&gt;\n\t&lt;StoppedLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId&gt;01700000988&lt;/ServiceId&gt;\n\t\t&lt;LastWorkingPartialDN&gt;&lt;/LastWorkingPartialDN&gt;\n\t\t&lt;StoppedDate&gt;&lt;/StoppedDate&gt;\n\t\t&lt;ProductType&gt;PSTN Single Line&lt;/ProductType&gt;\n\t\t&lt;StoppedLineLocation&gt;CL&lt;/StoppedLineLocation&gt;\n\t\t&lt;TechnologyType&gt;&lt;/TechnologyType&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;ALB&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;NDXD09&lt;/CSSExchangeType&gt;\n\t\t&lt;ISDN2eStandardCapable&gt;&lt;/ISDN2eStandardCapable&gt;\n\t\t&lt;ISDN2eSystemCapable&gt;&lt;/ISDN2eSystemCapable&gt;\n\t&lt;/StoppedLine&gt;\n\t&lt;StoppedLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId&gt;01800000988&lt;/ServiceId&gt;\n\t\t&lt;LastWorkingPartialDN&gt;&lt;/LastWorkingPartialDN&gt;\n\t\t&lt;StoppedDate&gt;&lt;/StoppedDate&gt;\n\t\t&lt;ProductType&gt;PSTN Single Line&lt;/ProductType&gt;\n\t\t&lt;StoppedLineLocation&gt;CL&lt;/StoppedLineLocation&gt;\n\t\t&lt;TechnologyType&gt;&lt;/TechnologyType&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;ALB&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;NDXD09&lt;/CSSExchangeType&gt;\n\t\t&lt;ISDN2eStandardCapable&gt;&lt;/ISDN2eStandardCapable&gt;\n\t\t&lt;ISDN2eSystemCapable&gt;&lt;/ISDN2eSystemCapable&gt;\n\t&lt;/StoppedLine&gt;\n\t&lt;StoppedLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId&gt;LLST0000954&lt;/ServiceId&gt;\n\t\t&lt;LastWorkingPartialDN /&gt;\n\t\t&lt;StoppedDate&gt;25/05/2015&lt;/StoppedDate&gt;\n\t\t&lt;ProductType&gt;MPF&lt;/ProductType&gt;\n\t\t&lt;StoppedLineLocation&gt;CL&lt;/StoppedLineLocation&gt;\n\t\t&lt;TechnologyType&gt;DACS&lt;/TechnologyType&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;ALB&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;21CN&lt;/CSSExchangeType&gt;\n\t&lt;/StoppedLine&gt;\n\t\n\t&lt;StoppedLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId&gt;LLST0000955&lt;/ServiceId&gt;\n\t\t&lt;LastWorkingPartialDN /&gt;\n\t\t&lt;StoppedDate&gt;25/05/2015&lt;/StoppedDate&gt;\n\t\t&lt;ProductType&gt;SMPF&lt;/ProductType&gt;\n\t\t&lt;StoppedLineLocation&gt;CL&lt;/StoppedLineLocation&gt;\n\t\t&lt;TechnologyType&gt;DACS&lt;/TechnologyType&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;ALB&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;21CN&lt;/CSSExchangeType&gt;\n\t&lt;/StoppedLine&gt;\n&lt;/ListOfStoppedLine&gt;</ListOfStoppedLine><ListOfWorkingLine>&lt;ListOfWorkingLine&gt;\n\t&lt;WorkingLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId&gt;01900000988&lt;/ServiceId&gt;\n\t\t&lt;NumberRetentionAllowed&gt;Y&lt;/NumberRetentionAllowed&gt;\n\t\t&lt;PartialDN /&gt;\n\t\t&lt;AccessLineId&gt;C001900000988&lt;/AccessLineId&gt;\n\t\t&lt;ProductType&gt;PSTN Single Line&lt;/ProductType&gt;\n\t\t&lt;PendingCeaseOrderIndicator&gt;N&lt;/PendingCeaseOrderIndicator&gt;\n\t\t&lt;PendingCeaseCompletionDate /&gt;\n\t\t&lt;WorkingLineLocation&gt;CL&lt;/WorkingLineLocation&gt;\n\t\t&lt;TechnologyType /&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;ALB&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;NDXD09&lt;/CSSExchangeType&gt;\n\t&lt;/WorkingLine&gt;\n\t&lt;WorkingLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId&gt;&lt;/ServiceId&gt;\n\t\t&lt;NumberRetentionAllowed&gt;Y&lt;/NumberRetentionAllowed&gt;\n\t\t&lt;PartialDN /&gt;\n\t\t&lt;AccessLineId&gt;C001500000988&lt;/AccessLineId&gt;\n\t\t&lt;ProductType&gt;PSTN Single Line&lt;/ProductType&gt;\n\t\t&lt;PendingCeaseOrderIndicator&gt;N&lt;/PendingCeaseOrderIndicator&gt;\n\t\t&lt;PendingCeaseCompletionDate /&gt;\n\t\t&lt;WorkingLineLocation&gt;CL&lt;/WorkingLineLocation&gt;\n\t\t&lt;TechnologyType /&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;ALB&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;NDXD09&lt;/CSSExchangeType&gt;\n\t&lt;/WorkingLine&gt;\n\t&lt;WorkingLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId /&gt;\n\t\t&lt;NumberRetentionAllowed&gt;Y&lt;/NumberRetentionAllowed&gt;\n\t\t&lt;PartialDN /&gt;\n\t\t&lt;AccessLineId&gt;MTU0000955M1&lt;/AccessLineId&gt;\n\t\t&lt;ProductType&gt;MPF&lt;/ProductType&gt;\n\t\t&lt;PendingCeaseOrderIndicator&gt;N&lt;/PendingCeaseOrderIndicator&gt;\n\t\t&lt;PendingCeaseCompletionDate /&gt;\n\t\t&lt;WorkingLineLocation&gt;CL&lt;/WorkingLineLocation&gt;\n\t\t&lt;TechnologyType /&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;ALB&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;21CN&lt;/CSSExchangeType&gt;\n\t&lt;/WorkingLine&gt;\n\t&lt;WorkingLine xmlns=\"\"&gt;\n\t\t&lt;ServiceId /&gt;\n\t\t&lt;NumberRetentionAllowed&gt;Y&lt;/NumberRetentionAllowed&gt;\n\t\t&lt;PartialDN /&gt;\n\t\t&lt;AccessLineId&gt;ST0000956X&lt;/AccessLineId&gt;\n\t\t&lt;ProductType&gt;SMPF&lt;/ProductType&gt;\n\t\t&lt;PendingCeaseOrderIndicator&gt;N&lt;/PendingCeaseOrderIndicator&gt;\n\t\t&lt;PendingCeaseCompletionDate /&gt;\n\t\t&lt;WorkingLineLocation&gt;ST&lt;/WorkingLineLocation&gt;\n\t\t&lt;TechnologyType /&gt;\n\t\t&lt;TerminationType&gt;Line Box&lt;/TerminationType&gt;\n\t\t&lt;InstallationType&gt;Complex-Hotsite&lt;/InstallationType&gt;\n\t\t&lt;ExchangeGroupCode&gt;KLN&lt;/ExchangeGroupCode&gt;\n\t\t&lt;CSSExchangeType&gt;SAX&lt;/CSSExchangeType&gt;\n\t&lt;/WorkingLine&gt;\n&lt;/ListOfWorkingLine&gt;</ListOfWorkingLine><Locality></Locality><OrganisationName></OrganisationName><PoBox></PoBox><PostTown></PostTown><PremisesName></PremisesName><ResultsTruncatedFlag>true</ResultsTruncatedFlag><ResultType></ResultType><RetentionOfCLIPossible>false</RetentionOfCLIPossible><StoppedLineQty>0</StoppedLineQty><SubPremises></SubPremises><ThoroughFareName></ThoroughFareName><ThoroughFareNumber></ThoroughFareNumber><WorkingLineQty>694</WorkingLineQty></LinePlantAvailabilityResult></LinePlantAvailabilityResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"Tue, 03 Jul 2018 07:04:24 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*RequestAvailableAppointment*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><RequestAvailableAppointmentResponse xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><RequestAvailableAppointmentResult><ListOfError>\n        &lt;ListOfError&gt;&lt;Error&gt;&lt;CompletionCode&gt;2100&lt;/CompletionCode&gt;&lt;Code\n        /&gt;&lt;Message&gt;Success&lt;/Message&gt;&lt;Severity&gt;Informational&lt;/Severity&gt;&lt;/Error&gt;&lt;/ListOfError&gt;</ListOfError><RequestStatus>Accepted</RequestStatus><Action>Provide</Action><AddressReference>A021000</AddressReference><AppointmentType>Flexible</AppointmentType><CSSDistrictCode>ST</CSSDistrictCode><DirectoryNumber></DirectoryNumber><LineType>Basic</LineType><ListOfAvailableAppointment>&lt;ListOfAppointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;15/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;15/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;15/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;15/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;15/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;15/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;18/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;18/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;18/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;18/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;18/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;18/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;19/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;19/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;19/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;19/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;19/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;19/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;20/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;20/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;20/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;20/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;20/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;20/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;21/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;21/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;21/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;21/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;21/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;21/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;22/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;22/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;22/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;22/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;22/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;22/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;25/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;25/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;25/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;25/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;25/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;25/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;26/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;26/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;26/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;26/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;26/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;26/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;27/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;27/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;27/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;27/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;27/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;27/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;28/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;AM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;28/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;PM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;28/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;28/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFALM&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;28/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;MFAEA&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;Appointment xmlns=\"\"&gt;&lt;AppointmentDate&gt;28/06/2018&lt;/AppointmentDate&gt;&lt;AppointmentTimeslot&gt;EV&lt;/AppointmentTimeslot&gt;&lt;/Appointment&gt;&lt;/ListOfAppointment&gt;</ListOfAvailableAppointment><Quantity>1</Quantity><ServiceLevel></ServiceLevel><ServiceType>WLR Single Line</ServiceType><StartDate>10/06/2018</StartDate></RequestAvailableAppointmentResult></RequestAvailableAppointmentResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"Tue, 03 Jul 2018 07:04:42 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/dialogue-services-web-4.2.0.0/services/dialogueservices"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "glob",
+							"value": "*"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "glob",
+							"value": "*ReserveAppointment*"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\"><soap:Body><ReserveAppointmentResponse xmlns=\"http://singularity.co.uk/WLR3.API.Services/Dialogue\" xmlns:ns2=\"urn:Bearer\"><ReserveAppointmentResult><ListOfError></ListOfError><RequestStatus>Accepted</RequestStatus><Action>Provide</Action><AddressReference>A02200005202</AddressReference><AppointmentDate>2016-12-19T00:00:00.000Z</AppointmentDate><AppointmentReference>FTH6HCIJ</AppointmentReference><AppointmentTimeSlot>AM</AppointmentTimeSlot><AppointmentType>Standard</AppointmentType><CSSDistrictCode>ST</CSSDistrictCode><EarliestAppointmentDate xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:nil=\"true\"/><EarliestAppointmentTimeslot>2</EarliestAppointmentTimeslot><LineType>Basic</LineType><Quantity>1</Quantity><ServiceLevel>2</ServiceLevel><ServiceType>WLR Single Line</ServiceType></ReserveAppointmentResult></ReserveAppointmentResponse></soap:Body></soap:Envelope>",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"*"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=UTF-8"
+						],
+						"Date": [
+							"Tue, 03 Jul 2018 07:04:50 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v5",
+		"hoverflyVersion": "v0.17.0",
+		"timeExported": "2018-07-03T12:35:01+05:30"
+	}
+}

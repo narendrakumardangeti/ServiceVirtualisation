@@ -1,0 +1,47 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <InstallationDetailsQueryResponse xmlns="http://singularity.co.uk/WLR3.API.Services/Dialogue" xmlns:ns2="urn:Bearer">
+         <InstallationDetailsQueryResult>
+            <ListOfError><![CDATA[<ListOfError><Error><CompletionCode>2163</CompletionCode><Code /><Message>Telephone Number Is not a working line</Message><Severity>Error</Severity></Error></ListOfError>]]></ListOfError>
+            <RequestStatus>Rejected</RequestStatus>
+            <AccessType/>
+            <AddressReference/>
+            <AuxLineQuantity>0</AuxLineQuantity>
+            <BusinessContinuityFlag>false</BusinessContinuityFlag>
+            <CareLevel>3</CareLevel>
+            <CPSPresent>false</CPSPresent>
+            <CSSDistrictCode>CL</CSSDistrictCode>
+            <CSSExchangeGroupCode>MOO</CSSExchangeGroupCode>
+            <CSSExchangeType>AXE10</CSSExchangeType>
+            <DebtManagementIndicator/>
+            <EUConsent>true</EUConsent>
+            <InstallationFloor/>
+            <InstallationFloorPosition/>
+            <InstallationRoom/>
+            <InstallationType>Standard</InstallationType>
+            <LineType>Basic</LineType>
+            <ListOfBearer/>
+            <ListOfDDI/>
+            <ListOfDirectoryEntry/>
+            <ListOfIncompatibleFeature/>
+            <ListOfMainBillingNumber/>
+            <ListOfMSN/>
+            <ListOfPendingOrder/>
+            <ListOfUnsupportedFeature/>
+            <NarrowbandServicesIndicator>false</NarrowbandServicesIndicator>
+            <NumberRetentionAllowed>false</NumberRetentionAllowed>
+            <OIDServiceType>PSTN Single Line</OIDServiceType>
+            <OwnershipConfirmation>true</OwnershipConfirmation>
+            <PayPhoneType/>
+            <Postcode/>
+            <ServiceID>01553720951</ServiceID>
+            <ServiceType>WLR Single Line</ServiceType>
+            <SMCContactRequired>false</SMCContactRequired>
+            <StandByPowerRequired>false</StandByPowerRequired>
+            <TempStructure>false</TempStructure>
+            <TerminationType>Line Box</TerminationType>
+            <WholesaleCallsPresent>true</WholesaleCallsPresent>
+         </InstallationDetailsQueryResult>
+      </InstallationDetailsQueryResponse>
+   </soap:Body>
+</soap:Envelope>
